@@ -55,6 +55,6 @@ setInterval(function(){
 		document.querySelector("#app")
 	);
 }, 1000);
-
+ 
 export default SimpleCounter;
  
