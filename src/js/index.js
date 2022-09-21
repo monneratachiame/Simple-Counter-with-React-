@@ -22,8 +22,8 @@ function SimpleCounter(props){
     <div className="two">{props.digitTwo %10}</div>
     <div className="one">{props.digitOne %10}</div>
 </div>);
-};
-
+}; 
+ 
 SimpleCounter.propTypes = {
     digitSix: propTypes.number,
     digitFive: propTypes.number,
@@ -31,8 +31,8 @@ SimpleCounter.propTypes = {
     digitThree: propTypes.number,
     digitTwo: propTypes.number,
     digitOne: propTypes.number
-};
-
+}; 
+ 
 let counter = 0;
 setInterval(function(){
     const six = Math.floor(counter / 100000);
